@@ -5,9 +5,12 @@ p {
 }
 
 .about-portrait {
-    width: 500px;
-    border-radius: 250px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 150px;
     display: block;
     margin: auto;
+    margin-top: 30px;
 
 }

@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="styles/games.css">
         <link rel="stylesheet" href="styles/tools.css">
         <link rel="stylesheet" href="styles/about.css">
+        <link rel="stylesheet" href="styles/footer.css"> 
 
         <title>Luismi Herrera</title>
     </head>
@@ -18,10 +19,11 @@
                 <div>
                     <img class="portrait" src="images/luismi_portrait.jpg">
                 </div>
-                <div class="name">Luismi Herrera</div>
-                <div class="title">Animation Director</div>
+                <a href="index.html">
+                    <div class="name">Luismi Herrera</div>
+                    <div class="title">Animation Director</div>
+                </a>
             </div>
-            
             <div class="games">Games</div>
             <a href="tools.html">
                 <div class="tools">Tools</div>
@@ -30,8 +32,13 @@
                 <div class="about">About</div>
             </a>
         </header>
-
         <main>
+            <p>
+                Hi, my name is Luismi Herrera. I'm an animator working on the
+                videogames industry. These are some of the games I have
+                worked on. Click on the images to see more information about
+                the projects and what I did on them.
+            </p>
             <div class="games-container">
                 <div class="game">
                     <img class="game-image" src="images/hogwarts_legacy.avif">
@@ -68,5 +75,27 @@
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="footer-container">
+                <p>
+                    &copy; 
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                    Luismi Herrera
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/luismiguelherrera/" target="_blank">
+                        <img class="contact-icons" src="icons/LI-In-Bug.png"
+                    </a>
+                    <a href="https://twitter.com/luismiherrera" target="_blank">
+                        <img class="contact-icons" src="icons/X_logo_black.png"
+                    </a>
+                    <a href=mailto:luismiherrera@gmail.com? subject="subject text">
+                        <img class="contact-icons" src="icons/Gmail_icon_(2020).svg"
+                    </a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
