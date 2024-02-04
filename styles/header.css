@@ -34,17 +34,15 @@ header {
     font-style: italic;
 }
 
-.games {
-    margin-left: auto;
-}
 
 .games,
 .tools,
 .about {
-    padding: 1px 12px;
+    padding: 1px 8px;
     border: 1px solid white;
     border-radius: 20px;
     transition: border 0.15s;
+    font-weight: 600;
 }
 
 

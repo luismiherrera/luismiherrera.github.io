@@ -5,8 +5,8 @@ p {
 }
 
 .about-portrait {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
     object-fit: cover;
     border-radius: 150px;
     display: block;
