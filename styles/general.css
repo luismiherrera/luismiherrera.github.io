@@ -1,0 +1,14 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+main{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+}
+
+a {
+    text-decoration: none; /* remove underline */
+    color: inherit; /* inherit color from parent */
+}

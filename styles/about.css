@@ -1,0 +1,13 @@
+p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+
+.about-portrait {
+    width: 500px;
+    border-radius: 250px;
+    display: block;
+    margin: auto;
+
+}

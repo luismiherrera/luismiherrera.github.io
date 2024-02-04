@@ -1,0 +1,40 @@
+.games-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+@media (max-width: 900px) {
+    .games-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.game {
+    width: 200px;
+    padding: 4px;
+}
+
+.game-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: scale 0.5s;
+}
+
+.game-image:hover {
+    scale: 1.05;
+    transition: scale 0.5s;
+    cursor: pointer;
+}
+
+.game-text {
+    font-size: 18px;
+    color: gray;
+    margin-top: 1px;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    text-wrap: nowrap;
+}

@@ -1,0 +1,58 @@
+header {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+    z-index: 1000;
+    align-items: center;
+    column-gap: 25px;
+    font-size: 18px;
+}
+
+.portrait {
+    float: left;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.name {
+    margin-left: 90px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title {
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.games {
+    margin-left: auto;
+}
+
+.games,
+.tools,
+.about {
+    padding: 1px 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: border 0.15s;
+}
+
+
+.games:hover,
+.tools:hover,
+.about:hover {
+    color: rgb(201, 27, 27);
+    border: 1px solid lightgray;
+    cursor: pointer;
+    transition: border 0.15s;
+}
