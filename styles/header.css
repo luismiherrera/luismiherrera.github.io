@@ -32,8 +32,13 @@ header {
     font-size: 20px;
     font-weight: 200;
     font-style: italic;
+    transition: color 0.5s;
 }
 
+.title:hover {
+    color: rgb(250, 193, 8);
+    transition: color 0.5s;
+}
 
 .games,
 .tools,
