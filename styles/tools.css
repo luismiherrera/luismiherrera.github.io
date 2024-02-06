@@ -1,9 +1,44 @@
+.tools-title {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
 .tools-subtitle {
-  
+    margin-top: -30px;
 }
 
 .tools-grid {
     display:grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    place-items: left;
+    grid-template-rows: 1fr;
+    margin-bottom: 70px;
+
+}
+
+.tool {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.tool-preview {
+    width: 320px;
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.tool-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 4px;
+}
+
+.tool-description {
+    margin: 4px;
+}
+
+.tool-link {
+    display: flex;
+    justify-content: center;
+    color: rgb(145, 8, 8);
 }
