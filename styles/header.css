@@ -5,6 +5,11 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
     padding: 25px;
     max-width: 900px;
     margin: 0 auto;
@@ -40,20 +45,26 @@ header {
     transition: color 0.5s;
 }
 
+.home,
+.demo,
 .games,
 .tools,
-.about {
+.about,
+.contact {
     padding: 1px 8px;
+    margin: 0 -12px;
     border: 1px solid white;
     border-radius: 20px;
     transition: border 0.15s;
     font-weight: 600;
 }
 
-
+.home:hover,
+.demo:hover,
 .games:hover,
 .tools:hover,
-.about:hover {
+.about:hover,
+.contact:hover {
     color: rgb(201, 27, 27);
     border: 1px solid lightgray;
     cursor: pointer;

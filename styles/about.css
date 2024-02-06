@@ -4,13 +4,25 @@ p {
     padding: 0px 30px;
 }
 
-.about-portrait {
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-    border-radius: 150px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
+.about-grid {
+    display:grid;
+    grid-template-columns: auto auto;
+    align-items: center;
 
+}
+
+.about-text {
+    padding: 0 30px;
+}
+
+.portrait-continer {
+    
+}
+
+.about-portrait {
+    aspect-ratio: 2/3;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 30px;
 }

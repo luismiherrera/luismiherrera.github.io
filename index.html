@@ -9,73 +9,190 @@
         <link rel="stylesheet" href="styles/games.css">
         <link rel="stylesheet" href="styles/tools.css">
         <link rel="stylesheet" href="styles/about.css">
+        <link rel="stylesheet" href="styles/contact.css">
         <link rel="stylesheet" href="styles/footer.css"> 
 
         <title>Luismi Herrera</title>
     </head>
     <body>
         <header>
-            <div>
+            <div class="header-container">
                 <div>
-                    <img class="portrait" src="images/luismi_portrait.jpg">
-                </div>
-                <a href="index.html">
-                    <div class="name">Luismi Herrera</div>
-                    <div class="title">Animation Director</div>
-                </a>
-            </div>
-            <div class="games">Games</div>
-            <a href="tools.html">
-                <div class="tools">Tools</div>
-            </a>
-            <a href="about.html">
-                <div class="about">About</div>
-            </a>
-        </header>
-        <main>
-            <p>
-                Hi, my name is Luismi Herrera. I'm an animator working on the
-                videogames industry. These are some of the games I have
-                worked on. Click on the images to see more information about
-                the projects and what I did on them.
-            </p>
-            <div class="games-container">
-                <div class="game">
-                    <img class="game-image" src="images/hogwarts_legacy.avif">
-                    <p class="game-text">Hogwarts Legacy</p>
-                </div>
-                <div class="game">
-                    <a href="for_honor.html">
-                        <img class="game-image" src="images/for_honor.jpg">
-                        <p class="game-text">For Honor</p>
+                    <div>
+                        <img class="portrait" src="images/luismi_portrait.jpg">
+                    </div>
+                    <a href="index.html">
+                        <div class="name">Luismi Herrera</div>
+                        <div class="title">Animation Director</div>
                     </a>
                 </div>
-                <div class="game">
-                    <img class="game-image" src="images/Disney_Infinity_Moana.png">
-                    <p class="game-text">Disney Infinity</p>
-                </div>
-                <div class="game">
-                    <img class="game-image" src="images/fable3.png">
-                    <p class="game-text">Fable III</p>
-                </div>
-                <div class="game">
-                    <img class="game-image" src="images/fable2.jpg">
-                    <p class="game-text">Fable II</p>
-                </div>
+                <a href="#home-section">
+                    <div class="home">Home</div>
+                </a>
+                <a href="#demo-section">
+                    <div class="demo">Demo</div>
+                </a>
+                <a href="#games-section">
+                    <div class="games">Games</div>
+                </a>    
+                <a href="#tools-section">
+                    <div class="tools">Tools</div>
+                </a>
+                <a href="#about-section">
+                    <div class="about">About</div>
+                </a>
+                <a href="#contact-section">
+                    <div class="contact">Contact</div>
+                </a>
                 
-                <div class="game">
-                    <img class="game-image" src="images/castlevania.png">
-                    <p class="game-text">Castlevania: LoS</p>
+            </div>
+        </header>
+
+        
+        <main>
+            <div class="home-background" id="home-section">
+                <div class="home-container">
+                    
+                    
+                    <p>
+                        Hi, my name is Luismi Herrera. I'm an animator working on the
+                        videogames industry.
+                    </p>
+
+
                 </div>
-                <div class="game">
-                    <img class="game-image" src="images/jericho.png">
-                    <p class="game-text">Clive Barker's Jericho</p>
-                </div>
-                <div class="game">
-                    <img class="game-image" src="images/navy_moves.jpg">
-                    <p class="game-text">Navy Moves</p>
+            </div>  
+
+            <div class="demoreel-background" id="demo-section">
+                <div class="demoreel-container">
+                    <h1 class="demoreel-title">Demo reel</h1>
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/265463857?h=b864f269bf&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                 </div>
             </div>
+            
+
+            <div class="games-background" id="games-section">
+                <h1 class="games-title">Games I worked on</h1>
+                <div class="games-container">
+                    <div class="game">
+                        <img class="game-image" src="images/hogwarts_legacy.avif">
+                        <p class="game-text">Hogwarts Legacy</p>
+                    </div>
+                    <div class="game">
+                        <a href="for_honor.html">
+                            <img class="game-image" src="images/for_honor.jpg">
+                            <p class="game-text">For Honor</p>
+                        </a>
+                    </div>
+                    <div class="game">
+                        <img class="game-image" src="images/Disney_Infinity_Moana.png">
+                        <p class="game-text">Disney Infinity</p>
+                    </div>
+                    <div class="game">
+                        <img class="game-image" src="images/fable3.png">
+                        <p class="game-text">Fable III</p>
+                    </div>
+                    <div class="game">
+                        <img class="game-image" src="images/fable2.jpg">
+                        <p class="game-text">Fable II</p>
+                    </div>
+                    
+                    <div class="game">
+                        <img class="game-image" src="images/castlevania.png">
+                        <p class="game-text">Castlevania: LoS</p>
+                    </div>
+                    <div class="game">
+                        <img class="game-image" src="images/jericho.png">
+                        <p class="game-text">Clive Barker's Jericho</p>
+                    </div>
+                    <div class="game">
+                        <img class="game-image" src="images/navy_moves.jpg">
+                        <p class="game-text">Navy Moves</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="tools-background" id="tools-section">
+                <h1 class="tools-title" >Tools</h1>
+                <div class="tools-container">
+                    <p class="tools-subtitle">
+                        This is a selection of tools I have develop over the years to help me on my day to day.
+                        Hopefully you will find them useful too!
+                    </p>
+                    <div class="tools-grid">
+                        <div class="game">
+                            <img class="game-image" src="images/hogwarts_legacy.avif">
+                            <p class="game-text">Hogwarts Legacy</p>
+                        </div>
+                        <div class="game">
+                            <a href="for_honor.html">
+                                <img class="game-image" src="images/for_honor.jpg">
+                                <p class="game-text">For Honor</p>
+                            </a>
+                        </div>
+                        <div class="game">
+                            <img class="game-image" src="images/Disney_Infinity_Moana.png">
+                            <p class="game-text">Disney Infinity</p>
+                        </div>
+                        <div class="game">
+                            <img class="game-image" src="images/fable3.png">
+                            <p class="game-text">Fable III</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="about-background" id="about-section">
+                <div class="about-container">
+                    
+                    <div class="about-grid">
+                        <div class="about-text" id="about-section">
+                            <h1 class="about-title">About</h1>
+                            <p>
+                                As an Animation Director with over a decade of experience, I have had the pleasure 
+                                of directing and animating on more than 10 shipped titles, including the likes of 
+                                <i>Hogwarts Legacy, For Honor, Disney Infinity, and Fable.</i>
+                            </p>
+                            <p>
+                                My expertise lies in creating fluid and responsive gameplay animations, systems, and cinematics
+                                collaborating closely with animators, programmers and designers to bring ideas to life. I also 
+                                take pride in mentoring animators of all levels, sharing my knowledge and experience 
+                                to help them grow in their craft.
+                            </p>
+                            <p>
+                                I am always eager to expand my knowledge and abilities, and am 
+                                excited to take on new and challenging projects.
+                            </p>
+                        </div>                 
+                        <div class="portrait-container">
+                            <img class="about-portrait" src="images/luismi_reading.jpg">
+                        </div>
+
+                        
+                    </div>
+                        
+                </div>    
+            </div>
+
+            <div class="contact-background" id="contact-section">
+                <div class="contact-container">
+                    <h1 class="contact-title">Contact</h1>
+                    <p>For more information on my work, 
+                        to get in touch regarding employment opportunities, 
+                        or to just say hello, feel free to send me an e-mail
+                        - I'd love to hear from you!
+                    </p>
+                    <button class="email-button" onclick="sendEmail()">SEND AN E-MAIL</button>
+                    <script>
+                        function sendEmail() {
+                          window.location = "mailto:luismiherrera@gmail.com";
+                        }
+                      </script>
+                </div>    
+            </div>
+            
+
         </main>
         <footer>
             <div class="footer-container">
@@ -97,6 +214,7 @@
                         <img class="contact-icons" src="icons/Gmail_icon_(2020).svg"
                     </a>
                 </div>
+                
             </div>
         </footer>
     </body>

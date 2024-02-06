@@ -1,11 +1,9 @@
 .footer-container {
-    background-color: rgb(249, 249, 249);
     display: flex;
-    max-width: 900px;
+    max-width: 600px;
     align-items: center;
     margin: auto;
     height: 50px;
-    border-radius: 8px;
 }
 
 .footer-icons {
