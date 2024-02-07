@@ -19,6 +19,8 @@ main{
     font-size: 50px;
 }
 
+
+
 .home-container,
 .demoreel-container,
 .games-container,
@@ -31,6 +33,7 @@ main{
 }
 
 .home-background {
+
     scroll-margin-top: 150px;
 }
 
