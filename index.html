@@ -225,7 +225,7 @@
                             </p>
                         </div>                 
                         <div class="portrait-container">
-                            <img class="about-portrait" src="images/luismi_reading.jpg">
+                            <img class="about-portrait" id="rotating-image" ="images/luismi_reading.jpg">
                         </div>
 
                         
@@ -277,4 +277,40 @@
             </div>
         </footer>
     </body>
+
+    <script>
+        // Define an array of image sources
+        const imageSources = [
+            "images/luismi_reading.jpg",
+            "images/GP1_2355.jpg", // Add more image paths here
+            "images/Dp512WcXcAAw3BR2.jpg",
+            "images/luismi_3d.jpg",
+            "images/D2TN0EqU8AEUSxR.jpg",
+            "images/channels4_banner.jpg"
+        ];
+    
+        // Get the image element
+        const rotatingImage = document.getElementById("rotating-image");
+    
+        // Initialize index for cycling through imageSources
+        let currentIndex = 0;
+    
+        // Function to change the image source
+        function rotateImage() {
+            // Fade out the image
+            rotatingImage.style.opacity = 0;
+
+            setTimeout(() => {
+                // Change the image source
+                rotatingImage.src = imageSources[currentIndex];
+                currentIndex = (currentIndex + 1) % imageSources.length;
+
+                // Fade in the new image
+                rotatingImage.style.opacity = 1;
+            }, 600); // Wait for 1 second (same duration as the transition)
+        }
+    
+        // Call rotateImage every 3 seconds
+        setInterval(rotateImage, 3000);
+    </script>
 </html>
