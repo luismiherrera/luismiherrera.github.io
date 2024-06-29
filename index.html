@@ -6,7 +6,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
-        <link rel="stylesheet" href="styles/home.css">     
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/demoreel.css">     
         <link rel="stylesheet" href="styles/games.css">
         <link rel="stylesheet" href="styles/tools.css">
         <link rel="stylesheet" href="styles/about.css">
@@ -77,8 +78,16 @@
 
             <div class="demoreel-background" id="demo-section">
                 <div class="demoreel-container">
-                    <h1 class="demoreel-title">Demo reel</h1>
-                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/265463857?h=b864f269bf&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <h1 class="demoreel-title">Demo reels</h1>
+                    <div class="video-wrapper">
+                        <button class="arrow left-arrow" onclick="prevVideo()">&#9664;</button>
+                        <div class="video-container">
+                            <iframe id="video-frame" src="https://player.vimeo.com/video/265463857?h=b864f269bf&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <button class="arrow right-arrow" onclick="nextVideo()">&#9654;</button>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                    <script src="demoreel.js"></script>
                 </div>
             </div>
             
