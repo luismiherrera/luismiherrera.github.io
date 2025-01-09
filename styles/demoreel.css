@@ -46,3 +46,24 @@
 .right-arrow {
     right: -40px;
 }
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(250, 236, 193);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.dot.active {
+    background-color: rgb(250, 236, 193);
+    transform: scale(1.5); /* Slightly larger for the active dot */
+}
