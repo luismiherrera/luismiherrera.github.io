@@ -4,6 +4,8 @@ html {
 
 body {
     font-family: 'Jost', sans-serif;
+    background-color: rgb(196, 177, 154); /*background color*/
+    color: rgb(250, 236, 193); /* Text color */
 }
 
 main{
@@ -38,7 +40,7 @@ main{
 }
 
 .demoreel-background {
-    background-color: rgb(165, 165, 141);
+    background-color: rgb(126, 130, 106);
     padding-bottom: 100px;
     scroll-margin-top: 100px;
 }
@@ -46,7 +48,7 @@ main{
     scroll-margin-top: 150px;
 }
 .tools-background {
-    background-color: rgb(183, 183, 164);
+    background-color: rgb(126, 130, 106);
     scroll-margin-top: 150px;
 }
 
@@ -54,7 +56,7 @@ main{
     scroll-margin-top: 100px;
 }
 .contact-background {
-    background-color: rgb(165, 165, 141);
+    background-color: rgb(126, 130, 106);
     scroll-margin-top: 100px;
 }
 

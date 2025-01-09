@@ -2,11 +2,13 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
+    color: rgb(84, 62, 44);
 }
 
 @media (max-width: 900px) {
     .games-container {
         grid-template-columns: 1fr 1fr 1fr;
+        color: rgb(84, 62, 44);
     }
 }
 
@@ -20,7 +22,8 @@
     margin: auto;
     margin-top: -30px;
     margin-bottom: 20px;
-    max-width: 900px;   
+    max-width: 900px; 
+    color: rgb(84, 62, 44); /* Text color */  
 }
 
 .game-image {
@@ -39,7 +42,7 @@
 
 .game-text {
     font-size: 14px;
-    color: gray;
+    color: rgb(84, 62, 44);
     margin-top: 1px;
     text-align: center;
     font-weight: 500;

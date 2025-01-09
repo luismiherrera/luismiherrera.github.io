@@ -2,6 +2,7 @@ p {
     font-size: 20px;
     text-align: justify;
     padding: 0px 30px;
+    color: rgb(74, 52, 34);   
 }
 
 .about-grid {
@@ -13,6 +14,7 @@ p {
 
 .about-text {
     padding: 0 30px;
+    color: rgb(250, 236, 193); /* Text color */ 
 }
 
 .portrait-continer {

@@ -1,5 +1,5 @@
 header {
-    background-color: white;
+    background-color: rgb(96, 122, 100);
     display: flex;
     position: fixed;
     top: 0;
@@ -38,6 +38,7 @@ header {
     font-weight: 200;
     font-style: italic;
     transition: color 0.5s;
+    color: rgb(250, 193, 8);
 }
 
 .title:hover {
@@ -65,7 +66,7 @@ header {
 .tools:hover,
 .about:hover,
 .contact:hover {
-    color: rgb(201, 27, 27);
+    color: rgb(250, 193, 8);
     border: 1px solid lightgray;
     cursor: pointer;
     transition: border 0.15s;
