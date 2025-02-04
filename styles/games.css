@@ -49,3 +49,11 @@
     font-style: italic;
     text-wrap: nowrap;
 }
+
+.mrbunny-title {
+    text-align: center;
+}
+
+.mrbunny-widget {
+    text-align: center;
+}
